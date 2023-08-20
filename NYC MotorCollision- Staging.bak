@@ -1,0 +1,433 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.3">
+  <Nodes>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="148" y="28" width="925" height="337" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>NYC Motor Collision-Persons Data Profiling</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="True" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="1">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="173" y="161" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">D:\DADABI\Assignments\New-York-City-Motor-Vehicles-Collisions-Data-Analytics\Dataset\Motor_Vehicle_Collisions_-_Person.tsv</File>
+              <FormatSpecificOptions>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreErrors>False</IgnoreErrors>
+                <AllowShareWrite>False</AllowShareWrite>
+                <ImportLine>1</ImportLine>
+                <FieldLen>254</FieldLen>
+                <SingleThreadRead>True</SingleThreadRead>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <Delimeter>\t</Delimeter>
+                <QuoteRecordBreak>True</QuoteRecordBreak>
+                <CodePage>65001</CodePage>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Motor_Vehicle_Collisions_-_Person.tsv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="UNIQUE_ID" size="254" source="File: D:\DADABI\Assignments\New-York-City-Motor-Vehicles-Collisions-Data-Analytics\Dataset\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+                <Field name="COLLISION_ID" size="254" source="File: D:\DADABI\Assignments\New-York-City-Motor-Vehicles-Collisions-Data-Analytics\Dataset\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+                <Field name="CRASH_DATE" size="254" source="File: D:\DADABI\Assignments\New-York-City-Motor-Vehicles-Collisions-Data-Analytics\Dataset\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+                <Field name="CRASH_TIME" size="254" source="File: D:\DADABI\Assignments\New-York-City-Motor-Vehicles-Collisions-Data-Analytics\Dataset\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+                <Field name="PERSON_ID" size="254" source="File: D:\DADABI\Assignments\New-York-City-Motor-Vehicles-Collisions-Data-Analytics\Dataset\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+                <Field name="PERSON_TYPE" size="254" source="File: D:\DADABI\Assignments\New-York-City-Motor-Vehicles-Collisions-Data-Analytics\Dataset\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+                <Field name="PERSON_INJURY" size="254" source="File: D:\DADABI\Assignments\New-York-City-Motor-Vehicles-Collisions-Data-Analytics\Dataset\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+                <Field name="VEHICLE_ID" size="254" source="File: D:\DADABI\Assignments\New-York-City-Motor-Vehicles-Collisions-Data-Analytics\Dataset\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+                <Field name="PERSON_AGE" size="254" source="File: D:\DADABI\Assignments\New-York-City-Motor-Vehicles-Collisions-Data-Analytics\Dataset\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+                <Field name="EJECTION" size="254" source="File: D:\DADABI\Assignments\New-York-City-Motor-Vehicles-Collisions-Data-Analytics\Dataset\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+                <Field name="EMOTIONAL_STATUS" size="254" source="File: D:\DADABI\Assignments\New-York-City-Motor-Vehicles-Collisions-Data-Analytics\Dataset\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+                <Field name="BODILY_INJURY" size="254" source="File: D:\DADABI\Assignments\New-York-City-Motor-Vehicles-Collisions-Data-Analytics\Dataset\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+                <Field name="POSITION_IN_VEHICLE" size="254" source="File: D:\DADABI\Assignments\New-York-City-Motor-Vehicles-Collisions-Data-Analytics\Dataset\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+                <Field name="SAFETY_EQUIPMENT" size="254" source="File: D:\DADABI\Assignments\New-York-City-Motor-Vehicles-Collisions-Data-Analytics\Dataset\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+                <Field name="PED_LOCATION" size="254" source="File: D:\DADABI\Assignments\New-York-City-Motor-Vehicles-Collisions-Data-Analytics\Dataset\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+                <Field name="PED_ACTION" size="254" source="File: D:\DADABI\Assignments\New-York-City-Motor-Vehicles-Collisions-Data-Analytics\Dataset\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+                <Field name="COMPLAINT" size="254" source="File: D:\DADABI\Assignments\New-York-City-Motor-Vehicles-Collisions-Data-Analytics\Dataset\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+                <Field name="PED_ROLE" size="254" source="File: D:\DADABI\Assignments\New-York-City-Motor-Vehicles-Collisions-Data-Analytics\Dataset\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+                <Field name="CONTRIBUTING_FACTOR_1" size="254" source="File: D:\DADABI\Assignments\New-York-City-Motor-Vehicles-Collisions-Data-Analytics\Dataset\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+                <Field name="CONTRIBUTING_FACTOR_2" size="254" source="File: D:\DADABI\Assignments\New-York-City-Motor-Vehicles-Collisions-Data-Analytics\Dataset\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+                <Field name="PERSON_SEX" size="254" source="File: D:\DADABI\Assignments\New-York-City-Motor-Vehicles-Collisions-Data-Analytics\Dataset\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="10">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="269" y="101" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\Simran\AppData\Local\Temp\Engine_28920_baf02ea834c1234bac7c432ca01f5780_\Engine_28920_801096884e60e549b14991f4128b9ed6~.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="2">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+            <Position x="342" y="161" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Fields>
+                <Field field="UNIQUE_ID" selected="True" />
+                <Field field="COLLISION_ID" selected="True" />
+                <Field field="CRASH_DATE" selected="True" />
+                <Field field="CRASH_TIME" selected="True" />
+                <Field field="PERSON_ID" selected="True" />
+                <Field field="PERSON_TYPE" selected="True" />
+                <Field field="PERSON_INJURY" selected="True" />
+                <Field field="VEHICLE_ID" selected="True" />
+                <Field field="PERSON_AGE" selected="True" />
+                <Field field="EJECTION" selected="True" />
+                <Field field="EMOTIONAL_STATUS" selected="True" />
+                <Field field="BODILY_INJURY" selected="True" />
+                <Field field="POSITION_IN_VEHICLE" selected="True" />
+                <Field field="SAFETY_EQUIPMENT" selected="True" />
+                <Field field="PED_LOCATION" selected="True" />
+                <Field field="PED_ACTION" selected="True" />
+                <Field field="COMPLAINT" selected="True" />
+                <Field field="PED_ROLE" selected="True" />
+                <Field field="CONTRIBUTING_FACTOR_1" selected="True" />
+                <Field field="CONTRIBUTING_FACTOR_2" selected="True" />
+                <Field field="PERSON_SEX" selected="True" />
+                <Field field="*Unknown" selected="False" />
+              </Fields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="UNIQUE_ID" source="File: D:\DADABI\Assignments\New-York-City-Motor-Vehicles-Collisions-Data-Analytics\Dataset\Motor_Vehicle_Collisions_-_Person.tsv" type="Int32" />
+                <Field name="COLLISION_ID" source="File: D:\DADABI\Assignments\New-York-City-Motor-Vehicles-Collisions-Data-Analytics\Dataset\Motor_Vehicle_Collisions_-_Person.tsv" type="Int32" />
+                <Field name="CRASH_DATE" size="10" source="File: D:\DADABI\Assignments\New-York-City-Motor-Vehicles-Collisions-Data-Analytics\Dataset\Motor_Vehicle_Collisions_-_Person.tsv" type="String" />
+                <Field name="CRASH_TIME" size="5" source="File: D:\DADABI\Assignments\New-York-City-Motor-Vehicles-Collisions-Data-Analytics\Dataset\Motor_Vehicle_Collisions_-_Person.tsv" type="String" />
+                <Field name="PERSON_ID" size="36" source="File: D:\DADABI\Assignments\New-York-City-Motor-Vehicles-Collisions-Data-Analytics\Dataset\Motor_Vehicle_Collisions_-_Person.tsv" type="V_String" />
+                <Field name="PERSON_TYPE" size="15" source="File: D:\DADABI\Assignments\New-York-City-Motor-Vehicles-Collisions-Data-Analytics\Dataset\Motor_Vehicle_Collisions_-_Person.tsv" type="V_String" />
+                <Field name="PERSON_INJURY" size="11" source="File: D:\DADABI\Assignments\New-York-City-Motor-Vehicles-Collisions-Data-Analytics\Dataset\Motor_Vehicle_Collisions_-_Person.tsv" type="String" />
+                <Field name="VEHICLE_ID" source="File: D:\DADABI\Assignments\New-York-City-Motor-Vehicles-Collisions-Data-Analytics\Dataset\Motor_Vehicle_Collisions_-_Person.tsv" type="Int32" />
+                <Field name="PERSON_AGE" source="File: D:\DADABI\Assignments\New-York-City-Motor-Vehicles-Collisions-Data-Analytics\Dataset\Motor_Vehicle_Collisions_-_Person.tsv" type="Int16" />
+                <Field name="EJECTION" size="17" source="File: D:\DADABI\Assignments\New-York-City-Motor-Vehicles-Collisions-Data-Analytics\Dataset\Motor_Vehicle_Collisions_-_Person.tsv" type="V_String" />
+                <Field name="EMOTIONAL_STATUS" size="14" source="File: D:\DADABI\Assignments\New-York-City-Motor-Vehicles-Collisions-Data-Analytics\Dataset\Motor_Vehicle_Collisions_-_Person.tsv" type="V_String" />
+                <Field name="BODILY_INJURY" size="20" source="File: D:\DADABI\Assignments\New-York-City-Motor-Vehicles-Collisions-Data-Analytics\Dataset\Motor_Vehicle_Collisions_-_Person.tsv" type="V_String" />
+                <Field name="POSITION_IN_VEHICLE" size="86" source="File: D:\DADABI\Assignments\New-York-City-Motor-Vehicles-Collisions-Data-Analytics\Dataset\Motor_Vehicle_Collisions_-_Person.tsv" type="V_String" />
+                <Field name="SAFETY_EQUIPMENT" size="40" source="File: D:\DADABI\Assignments\New-York-City-Motor-Vehicles-Collisions-Data-Analytics\Dataset\Motor_Vehicle_Collisions_-_Person.tsv" type="V_String" />
+                <Field name="PED_LOCATION" size="57" source="File: D:\DADABI\Assignments\New-York-City-Motor-Vehicles-Collisions-Data-Analytics\Dataset\Motor_Vehicle_Collisions_-_Person.tsv" type="V_String" />
+                <Field name="PED_ACTION" size="47" source="File: D:\DADABI\Assignments\New-York-City-Motor-Vehicles-Collisions-Data-Analytics\Dataset\Motor_Vehicle_Collisions_-_Person.tsv" type="V_String" />
+                <Field name="COMPLAINT" size="34" source="File: D:\DADABI\Assignments\New-York-City-Motor-Vehicles-Collisions-Data-Analytics\Dataset\Motor_Vehicle_Collisions_-_Person.tsv" type="V_String" />
+                <Field name="PED_ROLE" size="15" source="File: D:\DADABI\Assignments\New-York-City-Motor-Vehicles-Collisions-Data-Analytics\Dataset\Motor_Vehicle_Collisions_-_Person.tsv" type="V_String" />
+                <Field name="CONTRIBUTING_FACTOR_1" size="53" source="File: D:\DADABI\Assignments\New-York-City-Motor-Vehicles-Collisions-Data-Analytics\Dataset\Motor_Vehicle_Collisions_-_Person.tsv" type="V_String" />
+                <Field name="CONTRIBUTING_FACTOR_2" size="53" source="File: D:\DADABI\Assignments\New-York-City-Motor-Vehicles-Collisions-Data-Analytics\Dataset\Motor_Vehicle_Collisions_-_Person.tsv" type="V_String" />
+                <Field name="PERSON_SEX" size="1" source="File: D:\DADABI\Assignments\New-York-City-Motor-Vehicles-Collisions-Data-Analytics\Dataset\Motor_Vehicle_Collisions_-_Person.tsv" type="String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+        </Node>
+        <Node ToolID="3">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="486" y="161" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="UNIQUE_ID" selected="True" type="Int64" size="8" />
+                <SelectField field="PERSON_SEX" selected="True" type="V_String" size="1" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="4">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BasicDataProfile.BasicDataProfile">
+            <Position x="678" y="77" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Limit_UniqueCount>10000</Limit_UniqueCount>
+              <Limit_UniqueValuesSize>1000</Limit_UniqueValuesSize>
+              <IsMetric value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBasicDataProfile" />
+        </Node>
+        <Node ToolID="5">
+          <GuiSettings>
+            <Position x="678" y="210" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="Select Fields">UNIQUE_ID=True,COLLISION_ID=True,CRASH_DATE=True,CRASH_TIME=True,PERSON_ID=True,PERSON_TYPE=True,PERSON_INJURY=True,VEHICLE_ID=True,PERSON_AGE=True,EJECTION=True,EMOTIONAL_STATUS=True,BODILY_INJURY=True,POSITION_IN_VEHICLE=True,SAFETY_EQUIPMENT=True,PED_LOCATION=True,PED_ACTION=True,COMPLAINT=True,PED_ROLE=True,CONTRIBUTING_FACTOR_1=True,CONTRIBUTING_FACTOR_2=True,PERSON_SEX=True</Value>
+              <Value name="Sample Data">False</Value>
+              <Value name="Number">True</Value>
+              <Value name="NNumber">5000</Value>
+              <Value name="Percent">False</Value>
+              <Value name="NPercent">10</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+          </Properties>
+          <EngineSettings Macro="Predictive Tools\Field_Summary_Report.yxmc" />
+        </Node>
+        <Node ToolID="6">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="882" y="77" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\Simran\AppData\Local\Temp\Engine_28920_baf02ea834c1234bac7c432ca01f5780_\Engine_28920_6d2328b9f189d643b944803b627f3221~.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="7">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="990" y="138" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\Simran\AppData\Local\Temp\Engine_28920_baf02ea834c1234bac7c432ca01f5780_\Engine_28920_7bf4c5daef71774cb69bee683c116041~.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Report</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="8">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="990" y="210" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\Simran\AppData\Local\Temp\Engine_28920_baf02ea834c1234bac7c432ca01f5780_\Engine_28920_211759ba96dbb046ad482ab8df471ef9~.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Report</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="9">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="990" y="282" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\Simran\AppData\Local\Temp\Engine_28920_baf02ea834c1234bac7c432ca01f5780_\Engine_28920_5eb8d9621fde6d4b8531c1176944689f~.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Report</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="5" Connection="Field Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Reports" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Interactive" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>NYC MotorCollision- Staging</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="e204ef29-1ef7-43f8-b09f-0077d0f259ba" />
+      <Telemetry>
+        <PreviousWorkflowId value="c86cabc4-c871-4222-b884-dfaba20ae01a" />
+        <OriginWorkflowId value="c86cabc4-c871-4222-b884-dfaba20ae01a" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
